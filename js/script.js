@@ -74,6 +74,7 @@ function onDelete(td) {
     }
 }
 function validate() {
+    
     isValid = true;
     if (document.getElementById("fullName").value == "") {
         isValid = false;
